@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <h1> Sign up page</h1>
+  </head>
+  <body>
+    <form>
+    <label for="name">Enter Name</label>
+      <input type="text" placeholder="Please enter name" name="name" id="name"
+        required
+        maxlength="15"
+        minlength="3"/>
+
+        <label for="age">Enter Age</label>
+      <input
+        type="number"
+        placeholder="Please enter age"
+        name="age"
+        id="age"
+        required
+      />
+      <label for="contact">Enter your contact</label>
+      <input
+        type="tel"
+        placeholder="Please enter contact"
+        name="contact"
+        id="contact"
+        required
+      />
+      <label for="email">Enter email</label>
+      <input type="text" placeholder="Please enter email" name="email" id="email"
+        required
+        maxlength="15"
+        minlength="3"/><br>
+
+        <label for="password">Enter password</label>
+      <input type="text" placeholder="Please enter password" name="password" id="password"
+        required
+        maxlength="15"
+        minlength="3"/>
+        <label for="country">Country</label>
+
+      <select id="country" name="country">
+          <option value="Singapore">Canada</option>
+          <option value="india">India</option>
+          <option value="China">Australia</option>
+        </optgroup>
+      </select>
+      <input type="reset" />
+      <button>Submit</button>
+      </form>
+  </body>
+</html>
